@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>cloud (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_2_Dashboard-More" transform="translate(-1104.000000, -375.000000)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(81.000000, 277.000000)">
+                <g id="Group-27-Copy" transform="translate(921.000000, 35.000000)">
+                    <g id="cloud-(1)" transform="translate(102.000000, 63.000000)">
+                        <circle id="Oval" fill="#35CCFF" cx="40" cy="40" r="40"></circle>
+                        <path d="M60.8670312,28.096875 L12.48875,48.551875 L43.7595313,79.8228125 C61.8678125,78.134375 76.469375,64.376875 79.4428125,46.6725 L60.8670312,28.096875 Z" id="Path" fill="#00BAFF"></path>
+                        <path d="M50.7546875,51.8701562 C58.5076562,51.8701562 64.7926562,45.585 64.7926562,37.8320312 C64.7926562,30.5729687 59.2826562,24.6014062 52.2170312,23.87 C49.78875,18.180625 44.144375,14.1923437 37.5675,14.1923437 C29.2479688,14.1923437 22.4228125,20.5742188 21.7109375,28.7089062 C21.3492188,28.675 20.983125,28.6557812 20.6125,28.6557812 C14.2020313,28.6557812 9.0053125,33.8525 9.0053125,40.2629687 C9.0053125,46.6734375 14.2020313,51.8701562 20.6125,51.8701562 L50.7546875,51.8701562 L50.7546875,51.8701562 Z" id="Path" fill="#FFFFFF"></path>
+                        <path d="M52.2170313,23.87 C49.78875,18.1804687 44.144375,14.1923437 37.5675,14.1923437 C37.4926563,14.1923437 37.4182813,14.1940625 37.34375,14.195 L37.34375,51.87 L50.7546875,51.87 C58.5076563,51.87 64.7926563,45.585 64.7926563,37.8320312 C64.7926563,30.5729687 59.2826563,24.6014062 52.2170313,23.87 Z" id="Path" fill="#E0E0E0"></path>
+                        <rect id="Rectangle" fill="#333333" x="32.4078125" y="35.0421875" width="33.871875" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#1A1A1A" x="49.1140625" y="35.0421875" width="17.1640625" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#8CC63F" x="60.2484375" y="37.76875" width="3.1390625" height="3.1390625"></rect>
+                        <rect id="Rectangle" fill="#FFDC00" x="55.890625" y="37.76875" width="3.1390625" height="3.1390625"></rect>
+                        <rect id="Rectangle" fill="#333333" x="32.4078125" y="45.3578125" width="33.871875" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#1A1A1A" x="49.1140625" y="45.3578125" width="17.1640625" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#8CC63F" x="60.2484375" y="48.084375" width="3.1390625" height="3.1390625"></rect>
+                        <rect id="Rectangle" fill="#FFDC00" x="55.890625" y="48.084375" width="3.1390625" height="3.1390625"></rect>
+                        <rect id="Rectangle" fill="#333333" x="32.4078125" y="55.675" width="33.871875" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#1A1A1A" x="49.1140625" y="55.675" width="17.1640625" height="8.591875"></rect>
+                        <rect id="Rectangle" fill="#8CC63F" x="60.2484375" y="58.4015625" width="3.1390625" height="3.1390625"></rect>
+                        <rect id="Rectangle" fill="#FFDC00" x="55.890625" y="58.4015625" width="3.1390625" height="3.1390625"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
