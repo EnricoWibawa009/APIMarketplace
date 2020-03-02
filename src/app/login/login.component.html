@@ -1,1 +1,124 @@
-<h1>Hello World!</h1>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  /* :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
+
+  
+  .content {
+    height: 100%;
+    width: 69.5%;
+    background-image : url(../../assets/image/image-login-fix.png);
+    background-repeat: no-repeat;
+    float: left;
+  }
+
+  .content2 {
+    height: 100%;
+    width: 30.5%;
+    background-color: white;
+    float: right;
+  }
+
+
+  .title img{
+    margin-top:38px;
+  }
+
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:85px;
+    padding-top:100px;
+  }
+
+  .body{
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .content2 img{
+
+    margin-top:60px;
+    margin-left:71px;
+  }
+
+  .login{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:57px;
+    margin-top:48px;
+  }
+
+  .vl {
+    border-left: 1px solid #DEDEDE;
+    height: 21px;
+  }
+
+</style>
+
+  <div class="content" role="main">
+    <!-- Resources -->
+    
+    <div class="title"> 
+      <!-- <div class="circle"></div> -->
+      <img src=" ../assets/image/title1.png" alt="">
+    </div>
+  </div>
+
+  <div class="content2">
+    <img src=" ../assets/image/title2.png" alt="">
+
+    <div class="login">
+      <p style="font-size: 24px">Login</p>
+      <p style="font-size: 13px">Sign in with your Wippo ID</p>
+
+      <mat-form-field appearance="standard" style="width: 300px">
+        <mat-label>Enter your email</mat-label>
+        <input matInput placeholder="name@email.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="standard" style="width: 300px">
+        <mat-label>Enter your password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+      <br>
+    
+      <button mat-button style="background-color:#2572EC;color:white;width: 300px">Login</button>
+      <br><br>
+      
+      <div>
+        <mat-checkbox style="float: left;color: #646363;font-size: 13px;">Remember Me</mat-checkbox>
+        <div class="vl" style="float: left;margin-left: 40px;"></div>
+        <button mat-button style="margin-left:36px;margin-top:-6px;color:#2572EC;font-size: 13px;">Forgot Password</button>
+      </div>
+
+    </div>
+    <div style="margin-top: 62px;margin-left:98px">
+      <a style="color: #646363;font-size:13px;float:left;">Don’t have an account?</a>
+      <button mat-button style="margin-left:36px;margin-top:-6px;color:#2572EC;font-size: 13px;float: left;margin-left: -13px;margin-top:-10px;">Contact Admin</button>
+    </div>
+  </div>
+
+
+
