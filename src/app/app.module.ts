@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BillingComponent } from './billing/billing.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderWeatherComponent } from './header_weatherAPI/header_weatherAPI.component';
 
 @NgModule({
   declarations: [
@@ -10,9 +13,11 @@ import { BillingComponent } from './billing/billing.component';
     BillingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatMenuModule,
+    BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HeaderWeatherComponent]
 })
 export class AppModule { }
