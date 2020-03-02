@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'API-Detail',
+  templateUrl: './api-detail.component.html',
+  styleUrls: ['./api-detail.component.css']
 })
-export class AppComponent {
-  title = 'test-app';
+export class APIDetailComponent {
 }
