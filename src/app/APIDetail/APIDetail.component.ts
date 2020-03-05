@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'API-Detail',
-  templateUrl: './api-detail.component.html',
-  styleUrls: ['./api-detail.component.css']
+  selector: 'apidetail',
+  templateUrl: './APIDetail.component.html',
+  styleUrls: ['./APIDetail.component.css']
 })
 export class APIDetailComponent {
 }

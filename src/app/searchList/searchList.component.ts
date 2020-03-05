@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './searchList.component.html',
   styleUrls: ['./searchList.component.css']
 })
-export class SearchList {
+
+export class SearchListComponent {
+
 }

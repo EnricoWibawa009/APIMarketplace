@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './searchGrid.component.html',
   styleUrls: ['./searchGrid.component.css']
 })
-export class SearchGrid {
+
+export class SearchGridComponent {
+
 }

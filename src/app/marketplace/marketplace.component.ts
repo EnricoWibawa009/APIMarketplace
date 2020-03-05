@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./marketplace.component.css']
 })
 export class MarketplaceComponent {
+
 }

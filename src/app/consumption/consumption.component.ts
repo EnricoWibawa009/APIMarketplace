@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./consumption.component.css']
 })
 export class ConsumptionComponent {
+
 }
