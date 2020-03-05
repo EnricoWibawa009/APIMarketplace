@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar.component';
+// import { NavbarComponent } from './navbar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,8 +31,8 @@ import { MatInputModule } from '@angular/material/input';
       FormsModule,
       MatInputModule
     ],
-    declarations: [NavbarComponent],
-    bootstrap: [ NavbarComponent ]
+    declarations: [],
+    bootstrap: [ ]
   })
   export class NavbarModule {
     hide = true;
