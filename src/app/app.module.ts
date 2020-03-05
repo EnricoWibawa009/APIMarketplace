@@ -22,7 +22,7 @@ import { MatCardModule } from '@angular/material/card';
     MatCardModule
   ],
   providers: [],
-  bootstrap: [HeaderWeatherComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { 
   
