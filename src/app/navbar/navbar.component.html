@@ -1,21 +1,102 @@
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div class="w3-container">
+<style> 
+    .content {
+      height: 780px;
+      width: 260px;
+      background-color: white;
+      border-radius: 6px;
+      margin-left:67px;
+      margin-top:36px;
+      margin-bottom:36px;
+      padding-top: 31px;
+      padding-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      box-shadow: 2px 2px 3px 3px rgba(211, 211, 211, 0.233);
+    }
 
+    .mat-radio-button{
+        margin-left: 16px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex; 
+        flex-direction: column;
+    }
 
-<div class="w3-white">
-  <a href="#" class="w3-bar-item w3-button w3-hover-none"><img src="../assets/Icons/logo.png" width="150"></a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none">Dashboard</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none" style="font-weight: bold">Marketplace</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none">My Application</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none">News & Insights</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none">Forum</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none">Support</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none"><img src="../assets/search.svg"></a>
-  <a href="#" class="w3-bar-item w3-hover-none w3-right"><img src="../assets/profile.svg" style="margin-top: 19px; margin-right: 150px;"></a>
-  <a href="#" class="w3-bar-item w3-hover-none w3-right"><img src="../assets/notification.svg" style="margin-top: 19px; margin-right: 35px"></a>
-  <a href="#" class="w3-bar-item w3-hover-none w3-right"><button mat-button style="background-color: #6CC24A; color: white; margin-top: 11px; margin-right: 40px"><img src="../assets/add.svg" style="margin-right: 5px; margin-bottom: 2px">Create an App</button></a>
+    .category{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:13px;
+    }
 
-</div>
-<br>
+    .category mat-checkbox{
+        margin-left:20px;
+    }
+
+    hr.new1 {
+        border-top: 1px solid F0F0F0;
+        margin:15px;
+    }
+</style>
+  
+<div class="content">
+    <div class="sort">
+        <a style="font-family: Arial, Helvetica, sans-serif;font-size:11px;">SORT BY</a>
+        <br><br>
+        <mat-radio-group aria-label="Select an option" >
+            <mat-radio-button value="1">Newest</mat-radio-button><br>
+            <mat-radio-button value="2">Top Rated</mat-radio-button>
+            <mat-radio-button value="3">Most Frequently Used</mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <hr class="new1" style="width: 200px;">
+
+    <div class="category">
+        <a style="font-size: 11px;">CATEGORY</a><br><br>
+        <mat-checkbox>Weather</mat-checkbox><br>
+        <mat-checkbox>Location</mat-checkbox><br>
+        <mat-checkbox>Account</mat-checkbox><br>
+        <mat-checkbox>Payment</mat-checkbox><br>
+        <mat-checkbox>Open Data</mat-checkbox><br>
+        <mat-checkbox>Public</mat-checkbox><br>
+        <mat-checkbox>Dataset</mat-checkbox><br>
+    </div>
+
+    <hr class="new1" style="width: 200px;">
+
+    <div class="category">
+        <a style="font-size: 11px;">TYPE</a><br><br>
+        <mat-checkbox>Free</mat-checkbox><br>
+        <mat-checkbox>Paid</mat-checkbox><br>
+    </div>
+
+    <hr class="new1" style="width: 200px;">
+    <div class="category">
+        <a style="font-size: 11px;">PRICE RANGE</a><br><br>
+        <div>
+            <a style="margin-left: 20px;">$0</a>
+            <a style="margin-left:150px;">$100</a>
+        </div>
+        <mat-slider style="width: 200px;margin-left:18px;"></mat-slider>
+    </div>
+    <br>
+    <div>
+        <div class="fields-container">
+            <mat-form-field appearance="fill" style="width: 80px;margin-left:20px;">
+                <mat-label>From</mat-label>
+                <input matInput placeholder="$0">
+            </mat-form-field>
+            <mat-form-field appearance="fill" style="width: 80px;margin-right:40px;float:right;">
+                <mat-label>To</mat-label>
+                <input matInput placeholder="$100">
+            </mat-form-field>
+        </div>
+
+        <button mat-button 
+            style="background-color:#0E3570 ;color: white;font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 600;
+            border-radius: 50px;width: 100px;margin-left:20px;margin-top:50px;">
+                Apply Filter
+        </button>
+    </div>
+
+    
 </div>
