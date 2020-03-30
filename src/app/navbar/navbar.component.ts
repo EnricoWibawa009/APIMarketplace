@@ -10,6 +10,3 @@ export class NavbarComponent {
   title = 'test-app';
   panelOpenState = false;
 }
-  
-
-
