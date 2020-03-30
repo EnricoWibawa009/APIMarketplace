@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar.component';
+import {SidebarComponent } from './sidebarAPI.component';
+import {SubscribeComponent} from './sidebarAPI.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -13,30 +14,35 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
     imports: [
       CommonModule,
       ReactiveFormsModule,
       BrowserModule,
-      //BrowserAnimationsModule,
+      BrowserAnimationsModule,
       BrowserAnimationsModule,
       MatRadioModule,
       MatExpansionModule,
       MatDividerModule,
       MatListModule,
-      //MatCheckboxChange,
       MatCheckboxModule,
       MatSliderModule,
       MatFormFieldModule,
       FormsModule,
       MatInputModule,
-      MatButtonModule
+      MatButtonModule,
+      MatDialogModule,
+      MatIconModule,
+      MatCardModule
     ],
-    declarations: [NavbarComponent],
-    bootstrap: [ NavbarComponent ]
+    declarations: [SidebarComponent,SubscribeComponent],
+    bootstrap: [ SidebarComponent,SubscribeComponent]
   })
-  export class NavbarModule {
+  export class SidebarModule {
     hide = true;
-  
-   }
+  }
+   
