@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'subscribe',
+  templateUrl: './subscribe.component.html',
+  styleUrls: ['./subscribe.component.css']
 })
-export class AppComponent {
-  title = 'test-app';
+export class SubscribeComponent {
+  title = 'test-sub';
 }
+
+
+
