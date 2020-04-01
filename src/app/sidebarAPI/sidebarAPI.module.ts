@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SidebarComponent } from './sidebarAPI.component';
+ import {BillingComponent} from './sidebarAPI.component';
 import {SubscribeComponent} from './sidebarAPI.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -39,8 +40,8 @@ import {MatCardModule} from '@angular/material/card';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [SidebarComponent,SubscribeComponent],
-    bootstrap: [ SidebarComponent,SubscribeComponent]
+    declarations: [SidebarComponent,SubscribeComponent,BillingComponent],
+    bootstrap: [ SidebarComponent,SubscribeComponent,BillingComponent]
   })
   export class SidebarModule {
     hide = true;

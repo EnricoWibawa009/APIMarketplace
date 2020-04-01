@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SubscribeComponent } from './subscribe.component';
+import {BillingComponent} from './subscribe.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -39,9 +40,9 @@ import {MatCardModule} from '@angular/material/card';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [SubscribeComponent],
-    bootstrap: [ SubscribeComponent ]
+    declarations: [SubscribeComponent,BillingComponent],
+    bootstrap: [ SubscribeComponent,BillingComponent]
   })
   export class SubscribeModule {
-    
+    hide = true;
   }

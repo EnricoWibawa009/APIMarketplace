@@ -10,28 +10,30 @@
     
     .selection{
         margin-top:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
     }
 
     .selection mat-card{
         margin-top:10px;
-        width: 482px;
-        height: 30px;
+        width: 223px;
+        height: 308px;
         border-radius: 6px;
         box-shadow: 0px 0px 1px 1px #EAEAEA ;
         font-family: Arial, Helvetica, sans-serif;
+        float: left;
     }
     
 
     .selection mat-card a{
         font-size: 12px;
         margin-top: -20px;
-        color: #4D4848;
+        color: white;
     }
 
     .selection button{
-        border : 1px solid #0E3570;
         border-radius:25px;
-        float : right;
+        float : left;
         height: 34px;
         width: 100px;
         padding-bottom:10px;
@@ -44,68 +46,116 @@
         color: #0E3570;
     }
 
-    .submit button{
+    .back button{
         border-radius: 20px;
         width: 139px;
         height: 40px;
-        float:right;
-        background-color: #6CC24A;
-        color: white;
+        float:left;
+        background-color: #F1F2F6;
+        color: #4D4848;
         font-size: 12px;
         padding-left: 32px;
-        margin-right: 36px;
         margin-top: 26px;
     }
 
+    .next button{
+        border-radius: 20px;
+        width: 139px;
+        height: 40px;
+        float: right;;
+        background-color: #6CC24A;
+        font-size: 12px;
+        padding-left: 32px;
+        margin-top: 26px;
+    }
+
+    .page-button{
+        width: 870px;
+    }
+
+    .list{
+        width: 870px;
+        height: 300px;
+        color: white;
+        margin-top:-18px;
+    }
 </style>
   
 <div mat-dialog-content>
     <div class="content">
-        <a style="font-size: 20px;">
+        <a style="font-size: 20px;font-weight: 700;">
             Billing Plans
-        </a>
+        </a><br>
+        <a style="font-size: 13px;">Acme Application 1</a>
 
-        <p>
-            <mat-form-field appearance="fill" style="border-radius:4px;height:42px;width:515px;">
-                <mat-label>Search App</mat-label>
-                <input matInput placeholder="Search Application..">
-                <mat-icon matSuffix>search</mat-icon>
-            </mat-form-field>
-        </p>
-        <div class="selection">
-            <mat-card
-                style="background-color: #0E3570;color:white"> 
-            <a style="font-size: 13px;font-weight:bold;color:white">Acme Application 1</a><br>
-            <a style="color:white;">Lorem ipsum dolor sit amet conseqtetur adipiscing elit.</a>
-                <button mat-button 
-                    style="border : 1px solid white;">
-                    <mat-icon style="font-size: 15px;margin-top:6px;margin-left:-5px;">check</mat-icon>
-                    <a style="color: white;">Selected</a>
-                </button>
-            </mat-card>
-            <mat-card>
-                <a style="font-size: 13px;font-weight:bold;">Acme Application 2</a><br>
-                <a style="color:#8D8888">Lorem ipsum dolor sit amet conseqtetur adipiscing elit.</a>
-                <button mat-button><a>Subscribe</a></button>
-            </mat-card>
-            <mat-card>
-                <a style="font-size: 13px;font-weight:bold;">Acme Application 3</a><br>
-                <a style="color:#8D8888">Lorem ipsum dolor sit amet conseqtetur adipiscing elit.</a>
-                <button mat-button><a>Subscribe</a></button>
-            </mat-card>
-            <mat-card>
-                <a style="font-size: 13px;font-weight:bold;">Acme Application 4</a><br>
-                <a style="color:#8D8888">Lorem ipsum dolor sit amet conseqtetur adipiscing elit.</a>
-                <button mat-button><a>Subscribe</a></button>
-            </mat-card>
+        <div class="list" >
+            <div class="selection">
+                <mat-card style="background-color: #0E3570;color:white"> 
+                    <a style="font-size: 13px;font-weight:bold;color:white">Basic</a><br>
+                    <a style="color:white;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
+                    <br><br>
+                    <a style="font-size: 26px;font-weight:700px;color: white;">$4.99</a><a style="font-size: 12px;">/month</a>
+                    <br><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Pellentesque non cursus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Mauris id ultricies risus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Aliquam dapibus lectus</a><br><br>
+                    
+                    <button mat-button 
+                        style="margin-left:17px;margin-top:26px;;font-size: 12px;background-color:white;color:#0E3570;width: 183px;height: 30px;">
+                        Selected</button>
+                    
+                </mat-card>
+            </div>
+
+            <div class="selection">
+                <mat-card style="background-color: #009CDE;color:white;margin-left:30px;"> 
+                    <a style="font-size: 13px;font-weight:bold;color:white">Basic</a><br>
+                    <a style="color:white;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
+                    <br><br>
+                    <a style="font-size: 26px;font-weight:700px;color: white;">$24.99</a><a style="font-size: 12px;">/month</a>
+                    <br><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Pellentesque non cursus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Mauris id ultricies risus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Aliquam dapibus lectus</a><br><br>
+                    
+                    <button mat-button 
+                        style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid white;color:white;width: 183px;height: 30px;">
+                        Selected</button>
+                </mat-card>
+            </div>
+
+            <div class="selection">
+                <mat-card style="background-color: #FED929;color:black;margin-left:30px;"> 
+                    <a style="font-size: 13px;font-weight:bold;color:black">Basic</a><br>
+                    <a style="color:black;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
+                    <br><br>
+                    <a style="font-size: 26px;font-weight:700px;color: black;">$34.99</a><a style="font-size: 12px;color:black;">/month</a>
+                    <br><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Pellentesque non cursus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Mauris id ultricies risus</a><br>
+                    <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Aliquam dapibus lectus</a><br><br>
+                    
+                    <button mat-button 
+                        style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid black;color:black;width: 183px;height: 30px;">
+                        Selected</button>
+                </mat-card>
+            </div>
         </div>
-        <div class="submit">
-            <mat-dialog-actions align="end">
-                <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
-                    Subscribe <mat-icon style="font-size: 15px; margin-top:8px;">chevron_right</mat-icon>
-                </button>
-            </mat-dialog-actions>
+        
+        <div style="page-button">
+        
+            <button mat-button (click)="openDialogBack()"
+             style=";margin-left:17px;margin-top:26px;font-size: 12px;background-color:#F1F2F6;color:#4D4848;width:125px;height:40px;border-radius: 50px;">
+            Back</button>
+            
+            <button mat-button [mat-dialog-close]="true" cdkFocusInitial
+            style="border-radius: 100px;float:right;border-radius: 15px;margin-left:250px;margin-right: -260px;
+            margin-top:26px;;font-size: 12px;background-color:#6CC24A;color:white;width: 145px;height: 40px;
+            ">
+            Request Plan</button>
+
         </div>
+        
         
     </div>
 </div>

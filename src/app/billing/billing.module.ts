@@ -18,7 +18,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
-import { BillingComponent } from './billing.component';
 
 @NgModule({
     imports: [

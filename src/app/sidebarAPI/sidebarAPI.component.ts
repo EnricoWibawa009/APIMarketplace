@@ -15,7 +15,7 @@ export class SidebarComponent {
   openDialog() {
     this.dialog.open(SubscribeComponent, {
       height: '562px',
-      width: '630px'
+      width: '640px'
     });
   }
   
@@ -23,14 +23,49 @@ export class SidebarComponent {
 
 @Component({
   selector: 'subscribe',
-  templateUrl: './subscribe/subscribe.component.html',
+  templateUrl: './../subscribe/subscribe.component.html',
 })
 export class SubscribeComponent {
   constructor(
     public dialogRef: MatDialogRef<SubscribeComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: SidebarComponent) {}
+    @Inject(MAT_DIALOG_DATA) public data: SidebarComponent,
+    public dialog: MatDialog
+    ) {}
+
+  
+
+  openDialogBill() {
+    this.dialog.open(BillingComponent, {
+      height: '562px',
+      width: '950px'
+    },);
+    this.dialogRef.close();
+  }
 
   onNoClick(): void {
     this.dialogRef.close();
   }
+}
+
+@Component({
+  selector: 'billing',
+  templateUrl: './../billing/billing.component.html',
+})
+export class BillingComponent {
+  constructor(
+    public dialogRef: MatDialogRef<BillingComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: BillingComponent,
+    public dialog: MatDialog) {}
+
+    openDialogBack() {
+      this.dialog.open(SubscribeComponent, {
+        height: '562px',
+        width: '640px'
+      });
+      this.dialogRef.close();
+    }
+    
+    onNoClick(): void {
+      this.dialogRef.close();
+    }
 }

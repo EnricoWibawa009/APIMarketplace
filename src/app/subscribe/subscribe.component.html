@@ -65,7 +65,7 @@
             Select Application
         </a>
 
-        <p>
+        <p style="margin-top: 20px;">
             <mat-form-field appearance="fill" style="border-radius:4px;height:42px;width:515px;">
                 <mat-label>Search App</mat-label>
                 <input matInput placeholder="Search Application..">
@@ -100,11 +100,15 @@
             </mat-card>
         </div>
         <div class="submit">
-            <mat-dialog-actions align="end">
+            <!-- <mat-dialog-actions align="end">
                 <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
                     Subscribe <mat-icon style="font-size: 15px; margin-top:8px;">chevron_right</mat-icon>
                 </button>
-            </mat-dialog-actions>
+            </mat-dialog-actions> -->
+
+            <button mat-button (click)="openDialogBill()">
+                Subscribe <mat-icon style="font-size: 15px; margin-top:8px;">chevron_right</mat-icon>
+            </button>
         </div>
         
     </div>
