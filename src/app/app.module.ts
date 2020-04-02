@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FooterComponent,
     HeaderWeatherComponent,
     DashboardComponent
+
   ],
   imports: [
     BrowserModule,
