@@ -1,0 +1,154 @@
+.topMenu {
+    width: 100%;
+    height: 17%;
+    margin: 2% 0% 0% 0%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.topMenu .mat-card-title,
+.mat-card-subtitle,
+.mat-card-footer {
+    color: grey;
+}
+
+.topMenu .mat-card-title,
+.mat-card-subtitle {
+    font-weight: bold;
+}
+
+.detail {
+    color: rgb(80, 209, 241);
+    font-weight: 500;
+}
+
+a {
+    font-weight: normal;
+}
+
+.topCard {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220, 0.5);
+}
+
+.topCard .mat-card-footer {
+    margin: 0% 0% 0% 0.5%;
+    font-size: 90%;
+}
+
+.topMatTitle {
+    font-size: medium;
+}
+
+.mat-card-subtitle {
+    padding-top: 1%;
+    font-size: x-large;
+}
+
+.categoryMenu {
+    width: 100%;
+    height: 100%;
+    /* justify-content: center;
+    display: flex; */
+}
+
+.categoryMenu h3 {
+    margin: 3% 0 0 6%;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+.categoryMenu .elementCategoryMenu {
+    padding: 0px;
+    margin: 1% 0% 1% 0%;
+    height: 45%;
+    justify-content: center;
+    display: flex;
+}
+
+.categoryCard {
+    width: 19.65%;
+    height: 100%;
+    margin: 1% 1.5% 0% 1.5%;
+    padding: 1% 1% 2% 1%;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220, 0.5);
+    color: grey;
+    display: inline-block;
+}
+
+.categoryCard .mat-card-title {
+    font-size: small;
+}
+
+.categoryCard .mat-card-title img {
+    width: 6%;
+    height: 6%;
+}
+
+.categoryCard .mat-card-title a {
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+}
+
+.categoryCard .mat-card-content {
+    text-align: center;
+    height: 78%;
+}
+
+.categoryCard .mat-card-content a {
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+}
+
+.categoryCard .mat-card-content p {
+    font-size: 85%;
+    margin-top: 6%;
+}
+
+.categoryCard .mat-card-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+.categoryCard .mat-card-footer {
+    margin: 0;
+}
+
+.categoryCard .mat-card-footer a {
+    color: rgb(49, 211, 49);
+    font-weight: bolder;
+}
+
+.categoryCard .mat-card-footer .free {
+    background-color: rgb(49, 211, 49);
+    color: white;
+    padding: 1.5% 5%;
+    font-size: small;
+    font-weight: lighter;
+    border-radius: 9%;
+}
+
+.categoryCard .mat-card-footer p {
+    float: right;
+    font-weight: bolder;
+}
+
+.categoryFooter {
+    width: 100%;
+    margin: 3% 0% 5% 0%;
+    justify-content: center;
+    display: flex;
+    color: blue;
+}
+
+.categoryFooter .mat-raised-button {
+    color: blue;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+}
