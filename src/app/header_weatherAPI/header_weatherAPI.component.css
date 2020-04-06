@@ -1,4 +1,57 @@
-div {
-    widows: 100%;
+div .top {
+    width: 100%;
     height: 10%;
+}
+
+div .bottom {
+    width: 100%;
+    height: 10%;
+}
+
+.bookmark {
+    float: right;
+    vertical-align: center;
+}
+
+h4 {
+    float: left;
+    margin: 0px;
+}
+
+p {
+    float: left;
+    margin-left: 1%;
+    font-size: x-small;
+}
+
+a {
+    font-size: smaller;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    padding-left:10px;
+    font-size: 18px;
+}
+
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
 }

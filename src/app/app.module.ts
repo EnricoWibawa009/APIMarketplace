@@ -7,13 +7,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import { MatCardModule } from '@angular/material/card';
+import { HeaderWeatherComponent } from './header_weatherAPI/header_weatherAPI.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderWeatherComponent,
+    DashboardComponent
+
   ],
   imports: [
     BrowserModule,
@@ -22,7 +29,7 @@ import { MatCardModule } from '@angular/material/card';
     MatCardModule
   ],
   providers: [],
-  bootstrap: [HeaderWeatherComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { 
   
