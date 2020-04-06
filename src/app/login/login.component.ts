@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import {FormControl, Validators} from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
-
-
-  selector: 'login',
+  selector: 'app-root',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
@@ -22,4 +21,10 @@ export class LoginComponent{
 
     return this.email.hasError('email') ? 'Not a valid email' : '';
   }
+
+  constructor(private router: Router) { }
+
+  btnClick= function () {
+    this.router.navigateByUrl('[./../dashboard]');
+  };
 }
