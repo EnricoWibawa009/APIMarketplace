@@ -7,6 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  title = 'test-app';
+  title = 'nav-app';
   panelOpenState = false;
 }

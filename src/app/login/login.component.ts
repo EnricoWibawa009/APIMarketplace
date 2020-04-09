@@ -3,7 +3,7 @@ import {FormControl, Validators} from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'login-root',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })

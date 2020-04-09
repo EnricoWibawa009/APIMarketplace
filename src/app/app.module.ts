@@ -12,15 +12,15 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
-const routes: Routes = [
-  { path: 'dashboard', component: DashboardComponent },
-  { path: 'login', component:LoginComponent},
-  {
-    path: '',
-    redirectTo: 'login',
-    pathMatch: 'full'
-  }
-]
+// const routes: Routes = [
+//   { path: 'dashboard', component: DashboardComponent },
+//   { path: 'login', component:LoginComponent},
+//   {
+//     path: '',
+//     redirectTo: 'login',
+//     pathMatch: 'full'
+//   }
+// ]
 
 
 
@@ -38,7 +38,7 @@ const routes: Routes = [
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
-    RouterModule.forRoot(routes)
+    // RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
