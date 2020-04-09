@@ -10,11 +10,15 @@ import { MatCardModule } from '@angular/material/card';
 import { HeaderWeatherComponent } from './header_weatherAPI/header_weatherAPI.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component:LoginComponent},
+  { path: 'marketplace', component:MarketplaceComponent},
+  { path: 'navbar', component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -30,8 +34,8 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     HeaderWeatherComponent,
-    DashboardComponent
-
+    DashboardComponent,
+    MarketplaceComponent
   ],
   imports: [
     BrowserModule,
