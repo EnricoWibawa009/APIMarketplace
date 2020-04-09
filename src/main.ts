@@ -12,5 +12,5 @@ if (environment.production) {
 }
 
 platformBrowserDynamic()
-  .bootstrapModule(SidebarModule)
+  .bootstrapModule(LoginModule)
   .catch(err => console.error(err));
