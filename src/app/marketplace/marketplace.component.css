@@ -1,0 +1,111 @@
+
+.marketContent{
+    width: auto;
+    height: auto;
+    padding: 3% 5% 5% 5%;
+}
+
+.marketNav{
+    display: inline;
+    float : left;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+
+.content{
+    display: inline;
+    float: left;
+    width: 70%;
+    height: 100%;
+    padding: 1% 0% 2% 5%;
+}
+
+.content a {
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+    display: inline-block;
+}
+
+.content button{
+    margin: 2% 0% 2% 2%;
+    float: right;
+}
+
+.cardContent{
+    width: 100%;
+    height: 35%;
+    padding: 1% 3% 0% 1%;
+    margin: 0% 0% 2% 0%;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220, 0.5);
+    color: grey;
+    display: inline-block;
+}
+
+.cardComponentLeft{
+    width: 10%;
+    float: left;
+    display: inline;
+    padding: 2% 1% 2% 1%;
+}
+
+.cardComponentLeft .mat-card-title img {
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 7%;
+    padding: 5% 0% 5% 2%;
+}
+
+.cardComponentRight{
+    width: 90%;
+    float: left;
+    display: inline;
+}
+
+.cardComponentRight .mat-card-content img{
+    width: 4%;
+    height: 4%;
+    margin: 0.5% 1% 0.8% 0%;
+}
+
+.cardComponentRight .mat-card-content{
+    padding: 2% 0% 2% 1%;
+}
+
+.cardComponentRight .mat-card-content a {
+    font-weight: bold;
+    color: rgb(66, 65, 65);
+}
+
+.cardContent .mat-card-footer {
+    margin: 0;
+}
+
+.cardContent .mat-card-footer a {
+    color: rgb(49, 211, 49);
+    font-weight: bolder;
+}
+
+.cardContent .mat-card-footer .free {
+    background-color: rgb(49, 211, 49);
+    color: white;
+    padding: 1.5% 5%;
+    font-size: small;
+    font-weight: lighter;
+    border-radius: 9%;
+}
+
+.cardContent .mat-card-footer p {
+    float: right;
+    font-weight: bolder;
+}
+
+.categoryFooter {
+    width: 100%;
+    margin: 3% 0% 5% 0%;
+    justify-content: center;
+    display: flex;
+    color: blue;
+}
