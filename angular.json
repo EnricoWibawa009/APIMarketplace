@@ -24,7 +24,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+>>>>>>> 0771031969f5e6991001438dbf12e5207dab024d
               "src/styles.css"
             ],
             "scripts": []
@@ -89,7 +93,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+>>>>>>> 0771031969f5e6991001438dbf12e5207dab024d
               "src/styles.css"
             ],
             "scripts": []
