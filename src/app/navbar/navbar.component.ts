@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
-
 @Component({
-  selector: 'navbar',
+  selector: 'test-root',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  title = 'nav-app';
+  title = 'test-app';
   panelOpenState = false;
 }
