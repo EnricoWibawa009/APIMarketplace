@@ -2,12 +2,12 @@ import { Component, Inject } from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
 
 @Component({
-  selector: 'sidebarAPI',
+  selector: 'sidebarAPI-root',
   templateUrl: './sidebarAPI.component.html',
   styleUrls: ['./sidebarAPI.component.css']
 })
 export class SidebarComponent {
-  title = 'test-app';
+  title = 'sidebarAPI';
   panelOpenState = false;
 
   constructor(public dialog: MatDialog) {}
