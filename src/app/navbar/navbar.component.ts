@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material/dialog';
 
 @Component({
-  selector: 'test-root',
+  selector: 'sidebarAPI-root',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  title = 'test-app';
+  title = 'NavbarAPI';
   panelOpenState = false;
 }

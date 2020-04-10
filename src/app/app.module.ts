@@ -18,7 +18,6 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component:LoginComponent},
   { path: 'marketplace', component:MarketplaceComponent},
-  { path: 'navbar', component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
