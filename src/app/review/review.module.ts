@@ -14,6 +14,10 @@ import {MatListModule} from '@angular/material/list';
     HeaderComponent],
   bootstrap: []
 })
+<<<<<<< HEAD
 export class ReviewModule {
+=======
+export class NavbarModule {
+>>>>>>> 5cb104ab91da4117a4e75b7d203206c56fc60d84
   hide = true;
 }
