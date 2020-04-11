@@ -11,14 +11,16 @@ import { HeaderWeatherComponent } from './header_weatherAPI/header_weatherAPI.co
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
-import { NavbarComponent } from './navbar/navbar.component';
+// import { ReviewComponent } from './review/review.component';
+// import { NavbarComponent } from './navbar/navbar.component';
 
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component:LoginComponent},
   { path: 'marketplace', component:MarketplaceComponent},
-  { path: 'navbar', component:NavbarComponent},
+  // { path: 'review', component:ReviewComponent},
+  // { path: 'navbar', component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -35,7 +37,9 @@ const routes: Routes = [
     FooterComponent,
     HeaderWeatherComponent,
     DashboardComponent,
-    MarketplaceComponent
+    MarketplaceComponent,
+    // ReviewComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
