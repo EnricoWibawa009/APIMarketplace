@@ -51,10 +51,30 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                "lint": {
+                    "builder": "@angular-devkit/build-angular:tslint",
+                    "options": {
+                        "tsConfig": [
+                            "tsconfig.app.json",
+                            "tsconfig.spec.json",
+                            "e2e/tsconfig.json"
+                        ],
+                        "exclude": [
+                            "**/node_modules/**"
+                        ]
+                    }
+                },
+                "e2e": {
+                    "builder": "@angular-devkit/build-angular:protractor",
+                    "options": {
+                        "protractorConfig": "e2e/protractor.conf.js",
+                        "devServerTarget": "test-app:serve"
+                    },
+                    "configurations": {
+                        "production": {
+                            "devServerTarget": "test-app:serve:production"
+                        }
+                    }
                 }
               ]
             }
@@ -118,10 +138,7 @@
             "production": {
               "devServerTarget": "test-app:serve:production"
             }
-          }
         }
-      }
-    }
-  },
-  "defaultProject": "test-app"
+    },
+    "defaultProject": "test-app"
 }

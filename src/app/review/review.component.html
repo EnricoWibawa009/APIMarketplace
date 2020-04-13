@@ -1,1 +1,62 @@
-<h1>Hello World!</h1>
+<header></header>
+<div class="content">
+    <div class="left">
+        <mat-card class="left-mat">
+            <h2>Reviews</h2>
+
+            <select matNativeControl required>
+                <option value="Newest">Newest</option>
+                <option value="Latest">Latest</option>
+                <option value="Highest">Highest</option>
+                <option value="Lowest">Lowest</option>
+            </select>
+            <select matNativeControl required>
+                <option value="All">All Ratings</option>
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+
+            <div class="reviews">
+                <hr>
+                <div class="left-reviews">
+                    <h3>4.75</h3>
+                    <p>124 Reviews</p>
+                </div>
+                <div class="right-reviews">
+                    <p>5</p>
+                    <p>4</p>
+                    <p>3</p>
+                    <p>2</p>
+                    <p>1</p>
+                </div>
+                <hr>
+            </div>
+            <div class="left-comm" style="margin-top: 5%;">
+                <mat-list-item *ngFor="let note of notes">
+                    <div mat-line>{{note.name}}</div>
+                    <div mat-line> {{note.updated}} </div>
+                </mat-list-item>
+            </div>
+        </mat-card>
+    </div>
+    <div class="right">
+        <mat-card class="right-mat">
+            <h4>Your Rating & Reviews</h4>
+            <p>How would you rate this API?</p>
+            <div class="rating">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+            </div>
+            <div class="input">
+                <form action="/action_page.php">
+                    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+                    <input class="submit" type="submit">
+                </form>
+            </div>
+        </mat-card>
+    </div>
+</div>

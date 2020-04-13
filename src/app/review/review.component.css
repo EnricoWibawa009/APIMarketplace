@@ -1,0 +1,104 @@
+.content {
+    height: 100%;
+}
+
+.left {
+    padding: 1% 0% 2% 5%;
+    height: 100%;
+    width: 70%;
+    display: inline;
+    float: left;
+}
+
+.left-mat {
+    height: 100%;
+}
+
+.left-mat h2 {
+    float: left;
+}
+
+.left-mat select {
+    float: right;
+    margin-right: 2%;
+}
+
+.left-mat hr {
+    background: lightgrey;
+    height: 1px;
+}
+
+.reviews {
+    margin-top: 7%;
+    width: 100%;
+    height: 30%;
+}
+
+.left-reviews {
+    display: inline-block;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-reviews h3 {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.right-reviews {
+    display: inline-block;
+    width: 70%;
+}
+
+.right {
+    padding: 1% 5% 2% 0%;
+    height: 100%;
+    width: 30%;
+    display: inline;
+    float: left;
+}
+
+.right-mat {
+    width: 100%;
+    height: 100%;
+}
+
+.right-mat h4 {
+    font-weight: bolder;
+}
+
+.right-mat p {
+    font-weight: bold;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+.rating button {
+    margin: 2% 2% 0 2%;
+}
+
+.input {
+    margin: 3% 0 0 0;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input form {
+    width: 100%;
+    height: 70%;
+}
+
+.input textarea {
+    width: 100%;
+}
+
+.input .submit {
+    margin-top: 5%;
+}
