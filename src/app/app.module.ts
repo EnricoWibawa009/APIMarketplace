@@ -33,7 +33,7 @@ const routes: Routes = [
     FooterComponent,
     HeaderWeatherComponent,
     DashboardComponent,
-    MarketplaceComponent
+    MarketplaceComponent,
   ],
   imports: [
     BrowserModule,
