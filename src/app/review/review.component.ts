@@ -11,7 +11,9 @@ export interface Section {
   styleUrls: ['./review.component.css']
 })
 export class ReviewComponent {
-  
+  hide = true;
+
+
   notes: Section[] = [
     {
       name: 'Vacation Itinerary',
@@ -22,5 +24,5 @@ export class ReviewComponent {
       updated: new Date('1/18/16'),
     }
   ];
-  
 }
+

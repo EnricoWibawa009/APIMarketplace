@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
@@ -26,7 +26,7 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ReviewComponent } from './review/review.component';
-// import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './navbar/navbar.component';
 // import { SidebarComponent } from './sidebarAPI.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
@@ -38,7 +38,6 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
-  // { path: 'navbar', component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -55,8 +54,9 @@ const routes: Routes = [
     HeaderWeatherComponent,
     DashboardComponent,
     MarketplaceComponent,
-    // ReviewComponent,
-    LoginComponent
+    ReviewComponent,
+    LoginComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
