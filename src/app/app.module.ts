@@ -54,12 +54,9 @@ const routes: Routes = [
     HeaderWeatherComponent,
     DashboardComponent,
     MarketplaceComponent,
-<<<<<<< HEAD
-=======
     ReviewComponent,
     LoginComponent,
     NavbarComponent
->>>>>>> aga
   ],
   imports: [
     CommonModule,
