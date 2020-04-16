@@ -118,19 +118,10 @@
             "production": {
               "devServerTarget": "test-app:serve:production"
             }
-<<<<<<< HEAD
-          }
-        }
-      }
-    }
-  },
-  "defaultProject": "test-app"
-=======
          } 
        },
         "defaultProject": "test-app"
       }
     }   
   }
->>>>>>> c5e3685636b78b59a6a4340881959adacd72a626
 }

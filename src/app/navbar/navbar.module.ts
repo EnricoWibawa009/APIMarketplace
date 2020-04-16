@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-<<<<<<< HEAD
-// import {NavbarComponent } from './navbar.component';
-=======
 import {NavbarComponent} from './navbar.component';
->>>>>>> c5e3685636b78b59a6a4340881959adacd72a626
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
