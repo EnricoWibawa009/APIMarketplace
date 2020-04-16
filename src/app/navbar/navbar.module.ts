@@ -39,8 +39,8 @@ import {MatCardModule} from '@angular/material/card';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [NavbarComponent],
-    bootstrap: [NavbarComponent]
+    declarations: [],
+    bootstrap: []
   })
   export class NavbarModule {
     hide = true;
