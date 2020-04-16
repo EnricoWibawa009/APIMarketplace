@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {SidebarComponent } from './sidebarAPI.component';
- import {BillingComponent} from './sidebarAPI.component';
+import {BillingComponent} from './sidebarAPI.component';
 import {SubscribeComponent} from './sidebarAPI.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
