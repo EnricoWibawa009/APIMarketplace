@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'discussion',
+  selector: 'app-root',
   templateUrl: './discussion.component.html',
   styleUrls: ['./discussion.component.css']
 })
