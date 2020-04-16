@@ -38,6 +38,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
+  { path: 'navbar',  component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
