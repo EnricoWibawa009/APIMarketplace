@@ -7,14 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import { MatCardModule } from '@angular/material/card';
-
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Navbar2Component
   ],
   imports: [
     BrowserModule,
