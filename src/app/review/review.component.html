@@ -20,23 +20,72 @@
             <div class="reviews">
                 <hr>
                 <div class="left-reviews">
-                    <h3>4.75</h3>
+                    <h3><img src="../../assets/heart.svg" /> 4.75</h3>
                     <p>124 Reviews</p>
                 </div>
                 <div class="right-reviews">
-                    <p>5</p>
-                    <p>4</p>
-                    <p>3</p>
-                    <p>2</p>
-                    <p>1</p>
+                    <p>5 <svg style="width: 90%;">
+                            <path stroke="lightgreen" stroke-width="15" d="M5 10 2000 10" /> </svg></p>
+                    <p>4 <svg style="width: 30%;">
+                            <path stroke="cyan" stroke-width="15" d="M5 10 2000 10" /> </svg></p>
+                    <p>3 <svg style="width: 50%;">
+                            <path stroke="yellow" stroke-width="15" d="M5 10 2000 10" /> </svg></p>
+                    <p>2 <svg style="width: 60%;">
+                            <path stroke="orange" stroke-width="15" d="M5 10 2000 10" /> </svg></p>
+                    <p>1 <svg style="width: 20%;">
+                            <path stroke="red" stroke-width="15" d="M5 10 2000 10" /> </svg></p>
                 </div>
                 <hr>
             </div>
-            <div class="left-comm" style="margin-top: 5%;">
-                <mat-list-item *ngFor="let note of notes">
-                    <div mat-line>{{note.name}}</div>
-                    <div mat-line> {{note.updated}} </div>
-                </mat-list-item>
+            <div class="left-comm">
+                <!-- <mat-list-item *ngFor="let note of notes">
+                    <div mat-line><button class="w3-button w3-circle w3-border" style="margin-bottom: 1%; ">{{note.rating}}</button> {{note.name}} {{note.date}}</div>
+                    <div mat-line style="margin-bottom: 5%; padding-left: 5%;">{{note.comment}}</div>
+                </mat-list-item> -->
+                <div class="comment">
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+
+                    <div class='image'><button class="w3-button w3-circle w3-border w3-border-green w3-green">5</button> <img src="../../assets/image/user -james.png" /></div>
+                    <div class='text'>
+                        <p class='name'>Robert Reed</p>
+                        <h5 class='date'>December 27, 2019</h5>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscis elit. Vestiblutm risus srisu conscturo non graviad</p>
+                    </div>
+                </div>
+
             </div>
         </mat-card>
     </div>
@@ -45,16 +94,16 @@
             <h4>Your Rating & Reviews</h4>
             <p>How would you rate this API?</p>
             <div class="rating">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
+                <button class="w3-button w3-circle w3-border w3-border-green">1</button>
+                <button class="w3-button w3-circle w3-border w3-border-green">2</button>
+                <button class="w3-button w3-circle w3-border w3-border-green">3</button>
+                <button class="w3-button w3-circle w3-border w3-border-green">4</button>
+                <button class="w3-button w3-circle w3-border w3-border-green">5</button>
             </div>
             <div class="input">
                 <form action="/action_page.php">
                     <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
-                    <input class="submit" type="submit">
+                    <input class="submit w3-btn w3-round-xxlarge w3-border w3-border-green w3-green" type="submit">
                 </form>
             </div>
         </mat-card>

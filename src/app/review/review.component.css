@@ -31,7 +31,7 @@
 .reviews {
     margin-top: 7%;
     width: 100%;
-    height: 30%;
+    height: 22%;
 }
 
 .left-reviews {
@@ -45,11 +45,63 @@
 .left-reviews h3 {
     margin-bottom: 1%;
     font-weight: bold;
+    font-size: xx-large;
+}
+
+.left-reviews img {
+    margin-bottom: 1%;
+}
+
+.left-reviews p {
+    color: blue;
+}
+
+.left-comm {
+    margin-top: 5%;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+.left-comm .image {
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+}
+
+.image button {
+    margin: 0 15% 40% 0;
+}
+
+.image img {
+    margin-bottom: 40%;
+}
+
+.left-comm .text {
+    display: inline-block;
+    width: 90%;
+}
+
+.left-comm .date {
+    display: inline-block;
+    width: 10%;
+}
+
+.left-comm .name {
+    display: inline-block;
+    width: 10%;
 }
 
 .right-reviews {
     display: inline-block;
     width: 70%;
+}
+
+.right-reviews svg {
+    height: 15px;
 }
 
 .right {
@@ -70,7 +122,17 @@
 }
 
 .right-mat p {
-    font-weight: bold;
+    font-weight: 500;
+}
+
+.right-mat button {
+    width: auto;
+    height: auto;
+}
+
+.right-mat .submit {
+    width: 30%;
+    height: auto;
 }
 
 .rating {
