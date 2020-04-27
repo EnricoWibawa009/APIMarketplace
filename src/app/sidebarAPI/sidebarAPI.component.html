@@ -9,7 +9,7 @@
 
 <style>
     .content {
-        height: 830px;
+        height: 95%;
         width: 300px;
         background-color: white;
         border-radius: 6px;
@@ -160,16 +160,15 @@
     .splitter {
         color: #4D4848;
         margin-left: 16px;
-        margin-top: 12px;
+        margin-top: 0px;
     }
     
     .vl {
         border-left: 1px solid #EAEAEA;
         height: 33px;
         float: left;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-right: 20px;
-        margin-top: 10px;
     }
     
     .subsribe {
@@ -213,106 +212,180 @@
     }
 </style>
 
-<div style="height: 1000px;background-color: #F1F2F6;">
-    <div class="weather">
-        <div class="rectangle"></div>
-    </div>
-    <div class="content" style="margin-bottom: 40px;">
-        <div class="head">
-            <img src=" ../assets/Icons/drops.svg" alt="">
-            <p>Weather API</p>
-            <div class="name">
-                <a style="color:#4D4848">David Foster</a>
-                <span class="dot"></span>
-                <a style="color:#7D7878;">Acme Bank</a>
-            </div>
-            <div class="head-pay">
-                <a style="font-size: 15px;color:#6DC24B;">$4.99</a>
-                <a style="color:#8D8888;font-size: 12px;">/month</a>
-                <a style="float: right;font-size: 11px;color: #8D8888;margin-right:20px;">
-                    BANKING 
-                </a>
-            </div>
+<body style="height:100%">
 
-            <div class="head-desc">
-                <a>Lorem ipsum dolor sit amet consectetur adipiscing elit nunc 
-                    dignissim arcu purus at volutpat mauris eleifend maecenas
-                    ullamcorper a leo nec pulvinar sed auctor metus a nunc
-                    dignissim pharetra curabitur tristique eleifend nisi 
-                    et eleifend libero tempor auctor nam eget ex vestibulum.
-                </a>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div class="w3-container">
 
-            </div>
-        </div>
+        <div class="w3-white" style="margin-top: 8px; margin-bottom: -10px;">
+            <a class="w3-bar-item w3-button w3-hover-none"><img src="../assets/Icons/logo.png" width="150"></a>
+            <a href="/dashboard" class="w3-bar-item w3-button w3-hover-none" style="font-weight: bold" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+            <a href="/marketplace" class="w3-bar-item w3-button w3-hover-none" routerLink="/marketplace" routerLinkActive="active">Marketplace</a>
+            <a class="w3-bar-item w3-button w3-hover-none">My Application</a>
+            <a class="w3-bar-item w3-button w3-hover-none">News & Insights</a>
+            <a class="w3-bar-item w3-button w3-hover-none">Forum</a>
+            <a class="w3-bar-item w3-button w3-hover-none">Support</a>
+            <a class="w3-bar-item w3-button w3-hover-none"><img src="../assets/search.svg"></a>
+            <a class="w3-bar-item w3-right">
+                <div class="w3-dropdown-hover w3-hover-none">
+                    <button class="w3-button w3-hover-none w3-white"><img src="../assets/x.jpg"
+                            style="margin-top: 5px; margin-right: 50px; width: 120px"></button>
+                    <div class="w3-dropdown-content w3-bar-block w3-border" style="margin-right: 5px">
+                        <a class="w3-bar-item w3-button w3-hover-none"><button mat-button
+                                style="border-radius: 8px; background-color: #6CC24A; color: white; margin-top: 11px; margin-right: 40px"><img
+                                    src="../assets/swap.png"
+                                    style="margin-right: 5px; margin-bottom: 2px; width: 15px">Switch to
+                                Publisher</button></a>
+                        <a class="w3-bar-item w3-button w3-hover-none"><button mat-button
+                                style="border-radius: 8px; background-color: white; color: black; margin-right: 40px"><img
+                                    src="../assets/dry-clean.png"
+                                    style="margin-right: 5px; margin-bottom: 2px; width: 15px">Profile</button></a>
+                        <a class="w3-bar-item w3-button w3-hover-none"><button mat-button
+                                style="border-radius: 8px; background-color: white; color: black; margin-right: 40px"><img
+                                    src="../assets/adjust.png"
+                                    style="margin-right: 5px; margin-bottom: 2px; width: 15px">Settings</button></a>
+                        <a class="w3-bar-item w3-button w3-hover-none" routerLink="/login" routerLinkActive="active"><button mat-button
+                                style="border-radius: 8px; background-color: white; color: black; margin-right: 40px"><img
+                                    src="../assets/logout.png"
+                                    style="margin-right: 5px; margin-bottom: 2px; width: 15px">Logout</button></a>
 
-        <hr class="new1">
-
-        <div class="second">
-            <img src=" ../assets/Icons/love.png" alt="">
-            <a style="font-size:30px;color:#4D4848;
-                font-weight: 400;margin-left:11.5px;">
-                4.75
+                    </div>
+                </div>
             </a>
-            <a style="font-size: 12px;color:#0089CF;
-                float:right;margin-right:28px;margin-top:22px;">
-                124 Review
-            </a>
-            <div class="chart">
-                <a>5</a>
-                <div class="rectangle1"></div> <br>
-                <a>4</a>
-                <div class="rectangle2"></div>
-                <a style="margin-left: -6px;">3</a>
-                <div class="rectangle3"></div>
-                <a style="margin-left: -6px;"> 2</a>
-                <div class="rectangle4"></div>
-                <a style="margin-left: -6px;">1</a>
-                <div class="rectangle5"></div> <br>
-            </div>
-        </div>
+            <a class="w3-bar-item w3-hover-none w3-right"><img src="../assets/notification.svg" style="margin-top: 19px; margin-right: 35px"></a>
+            <a class="w3-bar-item w3-hover-none w3-right"><button mat-button
+                    style="border-radius: 24px; background-color: #6CC24A; color: white; margin-top: 11px; margin-right: 40px"><img
+                        src="../assets/add.svg" style="margin-right: 5px; margin-bottom: 2px">Create an App</button></a>
 
-        <hr class="new1">
-
-        <div style="float: left;">
-            <div class="splitter">
-                <span class="dot2" style="margin-top: 5px;"></span>
-                <p style="font-size: 12px;margin-left: 25px;margin-bottom:0px;">Latency</p>
-                <a style="font-size: 14px;margin-left: 8px;">29ms</a>
-            </div>
-        </div>
-
-        <div class="vl"></div>
-
-        <div style="float:right;margin-right:47px;margin-top:-51px;padding-bottom:15px">
-            <div class="splitter" style="margin-top:20px;">
-                <span class="dot2" style="margin-top: 5px;"></span>
-                <p style="font-size: 12px;margin-left: 25px;margin-bottom:0px;">Success Rate</p>
-                <a style="font-size: 14px;margin-left: 8px;">98%</a>
-            </div>
         </div>
         <br>
+    </div>
 
-        <hr class="new1">
-        <div class="subsribe">
-            <a>2,250 subscribed</a>
-            <button mat-button (click)="openDialog()" style="background-color:#6CC24A;width: 240px;height: 40px;
+
+    <div style="height: 1000px;background-color: #F1F2F6;">
+        <div class="weather">
+            <div class="rectangle"></div>
+        </div>
+        <div class="content" style="margin-bottom: 40px;">
+            <div class="head">
+                <img src=" ../assets/Icons/drops.svg" alt="">
+                <p>Weather API</p>
+                <div class="name">
+                    <a style="color:#4D4848">David Foster</a>
+                    <span class="dot"></span>
+                    <a style="color:#7D7878;">Acme Bank</a>
+                </div>
+                <div class="head-pay">
+                    <a style="font-size: 15px;color:#6DC24B;">$4.99</a>
+                    <a style="color:#8D8888;font-size: 12px;">/month</a>
+                    <a style="float: right;font-size: 11px;color: #8D8888;margin-right:20px;">
+                        BANKING
+                    </a>
+                </div>
+
+                <div class="head-desc">
+                    <a>Lorem ipsum dolor sit amet consectetur adipiscing elit nunc
+                        dignissim arcu purus at volutpat mauris eleifend maecenas
+                        ullamcorper a leo nec pulvinar sed auctor metus a nunc
+                        dignissim pharetra curabitur tristique eleifend nisi
+                        et eleifend libero tempor auctor nam eget ex vestibulum.
+                    </a>
+
+                </div>
+            </div>
+
+            <hr class="new1">
+
+            <div class="second">
+                <img src=" ../assets/Icons/love.png" alt="">
+                <a style="font-size:30px;color:#4D4848;
+                font-weight: 400;margin-left:11.5px;">
+                    4.75
+                </a>
+                <a style="font-size: 12px;color:#0089CF;
+                float:right;margin-right:28px;margin-top:22px;">
+                    124 Review
+                </a>
+                <div class="chart">
+                    <a>5</a>
+                    <div class="rectangle1"></div> <br>
+                    <a>4</a>
+                    <div class="rectangle2"></div>
+                    <a style="margin-left: -6px;">3</a>
+                    <div class="rectangle3"></div>
+                    <a style="margin-left: -6px;"> 2</a>
+                    <div class="rectangle4"></div>
+                    <a style="margin-left: -6px;">1</a>
+                    <div class="rectangle5"></div> <br>
+                </div>
+            </div>
+
+            <hr class="new1">
+
+            <div style="float: left;">
+                <div class="splitter">
+                    <span class="dot2" style="margin-top: 5px;"></span>
+                    <p style="font-size: 12px;margin-left: 25px;margin-bottom:0px;">Latency</p>
+                    <a style="font-size: 14px;margin-left: 8px;">29ms</a>
+                </div>
+            </div>
+
+            <div class="vl"></div>
+
+            <div style="float:right;margin-right:47px;margin-top:-51px;padding-bottom:15px">
+                <div class="splitter" style="margin-top:18px;">
+                    <span class="dot2" style="margin-top: 5px;"></span>
+                    <p style="font-size: 12px;margin-left: 25px;margin-bottom:0px;">Success Rate</p>
+                    <a style="font-size: 14px;margin-left: 8px;">98%</a>
+                </div>
+            </div>
+            <br>
+
+            <hr class="new1">
+            <div class="subsribe">
+                <a>2,250 subscribed</a>
+                <button mat-button (click)="openDialog()" style="background-color:#6CC24A;width: 240px;height: 40px;
                     font-size: 13px;color:white;font-weight: 300;
                     margin-top:16px;border-radius: 50px;">
-                Subsribe from $4.99
-            </button>
-            <button mat-button style="background-color:#0E3570;width: 240px;height: 40px;
+                    Subsribe from $4.99
+                </button>
+                <button mat-button style="background-color:#0E3570;width: 240px;height: 40px;
                     font-size: 13px;color:white;font-weight: 300;
                     margin-top:12px;border-radius: 50px;margin-bottom:25px;">
-            Download</button>
-        </div>
+                    Download</button>
+            </div>
 
-        <hr class="new1">
-        <div class="support">
-            <a style="font-size:14px;color:#4D4848">Get Support</a><br>
-            <div class="contact">
-                <img src=" ../assets/Icons/contact.png" alt=""><a>Contact API Provider</a><br><br>
-                <img src=" ../assets/Icons/dissc.png" alt=""><a>Discussion Forum</a>
+            <hr class="new1">
+            <div class="support">
+                <a style="font-size:14px;color:#4D4848">Get Support</a><br>
+                <div class="contact">
+                    <img src=" ../assets/Icons/contact.png" alt=""><a>Contact API Provider</a><br><br>
+                    <img src=" ../assets/Icons/dissc.png" alt=""><a>Discussion Forum</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div class="w3-container">
+
+        <div class="w3-container w3-bottom" style="background-color: #002D72;color: white; margin-left: -18px; padding-top: 50px; padding-bottom: 10px; padding-left: 70px;position: relative;width: 103%;margin-bottom: -20px;;">
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-left: 260px">Dashboard</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 70px; margin-left: -100px">Marketplace</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 140px; margin-left: -110px">My Application</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-left: 120px">Forum</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 70px; margin-left: -73px">Support</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 140px; margin-left: -83px">RSS Feed</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-left: 120px">About Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 70px; margin-left: -90px">Contact Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 140px; margin-left: -100px">Sitemaps</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-left: 120px">Terms of Use</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 70px; margin-left: -115px">Privacy Statement</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-none" style="float: left; margin-top: 140px; margin-left: -145px">Disclaimer</a>
+            <a class="w3-bar-item w3-hover-none" style="float: left; margin-top: 250px; margin-left: -560px; opacity: 0.5">© 2019 BankAPI Limited. All Rights Reserved</a>
+        </div>
+        <br>
+    </div>
+
+</body>

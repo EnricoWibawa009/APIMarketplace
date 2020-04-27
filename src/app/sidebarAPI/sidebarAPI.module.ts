@@ -18,6 +18,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {FooterComponent} from '../footer/footer.component';
+import {HeaderComponent} from '../header/header.component';
 
 @NgModule({
     imports: [
@@ -40,7 +42,7 @@ import {MatCardModule} from '@angular/material/card';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [SidebarComponent,SubscribeComponent,BillingComponent],
+    declarations: [SidebarComponent,SubscribeComponent,BillingComponent,HeaderComponent,FooterComponent],
     bootstrap: [ SidebarComponent,SubscribeComponent,BillingComponent]
   })
   export class SidebarModule {
