@@ -24,6 +24,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ReviewComponent } from './review/review.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { APIDetailComponent } from './APIDetail/APIDetail.component';
 // import { SidebarComponent } from './sidebarAPI.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
@@ -35,7 +36,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
-  { path: 'navbar',  component:NavbarComponent},
+  { path: 'apiDetail', component:APIDetailComponent},
+  //{ path: 'navbar',  component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
