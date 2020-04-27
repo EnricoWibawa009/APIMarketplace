@@ -7,6 +7,7 @@ export interface Section {
   name: string;
   date: string;
   comment: string;
+  // image: string;
 }
 
 @Component({
@@ -29,6 +30,7 @@ export class ReviewComponent {
       name: 'Robert Reed',
       date: 'December 27, 2019',
       comment: 'Lorem ipsum dolor sit amet conseqtetur adipsicing elit tempor dolor magna',
+      // image: '',
     },
     {
       rating: 4,
