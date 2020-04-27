@@ -1,86 +1,86 @@
 <style>
-    .content{
-      font-family: Arial, Helvetica, sans-serif;
-      width: 550px;
-      height: 498px;
-      padding-top:15px; 
-      padding-left: 31px;
-      border-radius:5px;
+    .content {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 550px;
+        height: 498px;
+        padding-top: 15px;
+        padding-left: 31px;
+        border-radius: 5px;
     }
     
-    .selection{
-        margin-top:30px;
+    .selection {
+        margin-top: 30px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
     }
-
-    .selection mat-card{
-        margin-top:10px;
+    
+    .selection mat-card {
+        margin-top: 10px;
         width: 223px;
         height: 308px;
         border-radius: 6px;
-        box-shadow: 0px 0px 1px 1px #EAEAEA ;
+        box-shadow: 0px 0px 1px 1px #EAEAEA;
         font-family: Arial, Helvetica, sans-serif;
         float: left;
     }
     
-
-    .selection mat-card a{
+    .selection mat-card a {
         font-size: 12px;
         margin-top: -20px;
         color: white;
     }
-
-    .selection button{
-        border-radius:25px;
-        float : left;
+    
+    .selection button {
+        border-radius: 25px;
+        float: left;
         height: 34px;
         width: 100px;
-        padding-bottom:10px;
-        margin-top:-20px;
-        margin-right:3px;
+        padding-bottom: 10px;
+        margin-top: -20px;
+        margin-right: 3px;
     }
-
-    .selection button a{
+    
+    .selection button a {
         font-size: 12px;
         color: #0E3570;
     }
-
-    .back button{
+    
+    .back button {
         border-radius: 20px;
         width: 139px;
         height: 40px;
-        float:left;
+        float: left;
         background-color: #F1F2F6;
         color: #4D4848;
         font-size: 12px;
         padding-left: 32px;
         margin-top: 26px;
     }
-
-    .next button{
+    
+    .next button {
         border-radius: 20px;
         width: 139px;
         height: 40px;
-        float: right;;
+        float: right;
+        ;
         background-color: #6CC24A;
         font-size: 12px;
         padding-left: 32px;
         margin-top: 26px;
     }
-
-    .page-button{
+    
+    .page-button {
         width: 870px;
     }
-
-    .list{
+    
+    .list {
         width: 870px;
         height: 300px;
         color: white;
-        margin-top:-18px;
+        margin-top: -18px;
     }
 </style>
-  
+
 <div mat-dialog-content>
     <div class="content">
         <a style="font-size: 20px;font-weight: 700;">
@@ -88,9 +88,9 @@
         </a><br>
         <a style="font-size: 13px;">Acme Application 1</a>
 
-        <div class="list" >
+        <div class="list">
             <div class="selection">
-                <mat-card style="background-color: #0E3570;color:white"> 
+                <mat-card style="background-color: #0E3570;color:white">
                     <a style="font-size: 13px;font-weight:bold;color:white">Basic</a><br>
                     <a style="color:white;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
                     <br><br>
@@ -99,16 +99,15 @@
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Pellentesque non cursus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Mauris id ultricies risus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Aliquam dapibus lectus</a><br><br>
-                    
-                    <button mat-button 
-                        style="margin-left:17px;margin-top:26px;;font-size: 12px;background-color:white;color:#0E3570;width: 183px;height: 30px;">
+
+                    <button mat-button style="margin-left:17px;margin-top:26px;;font-size: 12px;background-color:white;color:#0E3570;width: 183px;height: 30px;">
                         Selected</button>
-                    
+
                 </mat-card>
             </div>
 
             <div class="selection">
-                <mat-card style="background-color: #009CDE;color:white;margin-left:30px;"> 
+                <mat-card style="background-color: #009CDE;color:white;margin-left:30px;">
                     <a style="font-size: 13px;font-weight:bold;color:white">Basic</a><br>
                     <a style="color:white;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
                     <br><br>
@@ -117,15 +116,14 @@
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Pellentesque non cursus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Mauris id ultricies risus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:white;">Aliquam dapibus lectus</a><br><br>
-                    
-                    <button mat-button 
-                        style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid white;color:white;width: 183px;height: 30px;">
+
+                    <button mat-button style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid white;color:white;width: 183px;height: 30px;">
                         Selected</button>
                 </mat-card>
             </div>
 
             <div class="selection">
-                <mat-card style="background-color: #FED929;color:black;margin-left:30px;"> 
+                <mat-card style="background-color: #FED929;color:black;margin-left:30px;">
                     <a style="font-size: 13px;font-weight:bold;color:black">Basic</a><br>
                     <a style="color:black;">Lorem ipsum dolor sit amet nulla fermentum orci donec tristique.</a>
                     <br><br>
@@ -134,28 +132,25 @@
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Pellentesque non cursus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Mauris id ultricies risus</a><br>
                     <mat-icon style="margin-right:6px;">check_circle_outline</mat-icon><a style="font-size:13px;color:black;">Aliquam dapibus lectus</a><br><br>
-                    
-                    <button mat-button 
-                        style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid black;color:black;width: 183px;height: 30px;">
+
+                    <button mat-button style="margin-left:17px;margin-top:26px;font-size: 12px;border: 1px solid black;color:black;width: 183px;height: 30px;">
                         Selected</button>
                 </mat-card>
             </div>
         </div>
-        
-        <div style="page-button">
-        
-            <button mat-button (click)="openDialogBack()"
-             style=";margin-left:17px;margin-top:26px;font-size: 12px;background-color:#F1F2F6;color:#4D4848;width:125px;height:40px;border-radius: 50px;">
+
+        <div style="">
+
+            <button mat-button (click)="openDialogBack()" style="margin-left:17px;margin-top:26px;font-size: 12px;background-color:#F1F2F6;color:#4D4848;width:125px;height:40px;border-radius: 50px;">
             Back</button>
-            
-            <button mat-button [mat-dialog-close]="true" cdkFocusInitial
-            style="border-radius: 100px;float:right;border-radius: 15px;margin-left:250px;margin-right: -260px;
+
+            <button mat-button [mat-dialog-close]="true" cdkFocusInitial style="border-radius: 100px;float:right;border-radius: 15px;margin-left:250px;margin-right: -260px;
             margin-top:26px;;font-size: 12px;background-color:#6CC24A;color:white;width: 145px;height: 40px;
             ">
             Request Plan</button>
 
         </div>
-        
-        
+
+
     </div>
 </div>

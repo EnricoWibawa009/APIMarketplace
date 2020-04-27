@@ -24,19 +24,33 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ReviewComponent } from './review/review.component';
 import { NavbarComponent } from './navbar/navbar.component';
+<<<<<<< HEAD
 import { APIDetailComponent } from './APIDetail/APIDetail.component';
 // import { SidebarComponent } from './sidebarAPI.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+=======
+import { APIDetailComponent} from './APIDetail/APIDetail.component';
+// import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
+// import { BillingComponent } from './billing/billing.component';
+// import { SubscribeComponent } from './subscribe/subscribe.component';
+
+
+>>>>>>> 72992c391b30ca49493e6834b9c0a5a7d990f0b8
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
+<<<<<<< HEAD
   { path: 'apiDetail', component:APIDetailComponent},
   //{ path: 'navbar',  component:NavbarComponent},
+=======
+  { path: 'navbar',  component:NavbarComponent},
+  { path: 'apiDetail',  component:APIDetailComponent},
+>>>>>>> 72992c391b30ca49493e6834b9c0a5a7d990f0b8
   {
     path: '',
     redirectTo: 'login',
@@ -56,7 +70,11 @@ const routes: Routes = [
     ReviewComponent,
     LoginComponent,
     NavbarComponent,
+<<<<<<< HEAD
     Navbar2Component
+=======
+    APIDetailComponent,
+>>>>>>> 72992c391b30ca49493e6834b9c0a5a7d990f0b8
   ],
   imports: [
     CommonModule,
