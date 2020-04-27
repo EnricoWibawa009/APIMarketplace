@@ -31,7 +31,6 @@ import { APIDetailComponent } from './APIDetail/APIDetail.component';
 // import { SidebarComponent } from './sidebarAPI.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
-import { MatCardModule } from '@angular/material/card';
 import { Navbar2Component } from './navbar2/navbar2.component';
 
 const routes: Routes = [
@@ -59,9 +58,8 @@ const routes: Routes = [
     MarketplaceComponent,
     ReviewComponent,
     LoginComponent,
-    Navbar2Component
     NavbarComponent,
-    APIDetailComponent
+    Navbar2Component
   ],
   imports: [
     CommonModule,
