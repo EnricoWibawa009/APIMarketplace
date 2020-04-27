@@ -28,6 +28,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+import { MatCardModule } from '@angular/material/card';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
