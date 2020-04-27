@@ -15,9 +15,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
-import { MatCardModule } from '@angular/material/card';
-
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -27,20 +24,19 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ReviewComponent } from './review/review.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { APIDetailComponent} from './APIDetail/APIDetail.component';
-// import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
-// import { BillingComponent } from './billing/billing.component';
-// import { SubscribeComponent } from './subscribe/subscribe.component';
-
-
+import { APIDetailComponent } from './APIDetail/APIDetail.component';
+// import { SidebarComponent } from './sidebarAPI.component';
+// import { BillingComponent } from './sidebarAPI.component';
+// import { SubscribeComponent } from './sidebarAPI.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
-  { path: 'navbar',  component:NavbarComponent},
-  { path: 'apiDetail',  component:APIDetailComponent},
+  { path: 'apiDetail', component:APIDetailComponent},
+  //{ path: 'navbar',  component:NavbarComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -60,7 +56,7 @@ const routes: Routes = [
     ReviewComponent,
     LoginComponent,
     NavbarComponent,
-    APIDetailComponent,
+    Navbar2Component
   ],
   imports: [
     CommonModule,
@@ -80,7 +76,6 @@ const routes: Routes = [
     MatButtonModule,
     MatDialogModule,
     MatIconModule,
-    MatCardModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
