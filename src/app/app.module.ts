@@ -30,7 +30,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 // import { SidebarComponent } from './sidebarAPI.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
-import { MatCardModule } from '@angular/material/card';
 import { Navbar2Component } from './navbar2/navbar2.component';
 
 const routes: Routes = [
@@ -52,16 +51,14 @@ const routes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-<<<<<<< HEAD
     HeaderWeatherComponent,
     DashboardComponent,
     MarketplaceComponent,
     ReviewComponent,
     LoginComponent,
-    NavbarComponent
-=======
+    NavbarComponent,
     Navbar2Component
->>>>>>> gio
+
   ],
   imports: [
     CommonModule,
