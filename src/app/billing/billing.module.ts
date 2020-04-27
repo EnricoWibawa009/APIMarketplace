@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {SidebarComponent } from './sidebarAPI.component';
-import {SubscribeComponent} from './sidebarAPI.component';
-import {BillingComponent} from './sidebarAPI.component';
+// import {SidebarComponent } from './sidebarAPI.component';
+// import {SubscribeComponent} from './sidebarAPI.component';
+// import {BillingComponent} from './sidebarAPI.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -40,8 +40,8 @@ import {MatCardModule} from '@angular/material/card';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [SidebarComponent,SubscribeComponent,BillingComponent],
-    bootstrap: [ SidebarComponent,SubscribeComponent,BillingComponent]
+    declarations: [],
+    bootstrap: []
   })
   export class BillingModule {
     hide = true;

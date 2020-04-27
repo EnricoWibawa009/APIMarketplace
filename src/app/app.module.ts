@@ -27,9 +27,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { ReviewComponent } from './review/review.component';
 import { NavbarComponent } from './navbar/navbar.component';
-// import { SidebarComponent } from './sidebarAPI.component';
-// import { BillingComponent } from './sidebarAPI.component';
-// import { SubscribeComponent } from './sidebarAPI.component';
+import { APIDetailComponent} from './APIDetail/APIDetail.component';
+// import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
+// import { BillingComponent } from './billing/billing.component';
+// import { SubscribeComponent } from './subscribe/subscribe.component';
 
 
 
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
   { path: 'navbar',  component:NavbarComponent},
+  { path: 'apiDetail',  component:APIDetailComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -57,7 +59,8 @@ const routes: Routes = [
     MarketplaceComponent,
     ReviewComponent,
     LoginComponent,
-    NavbarComponent
+    NavbarComponent,
+    APIDetailComponent,
   ],
   imports: [
     CommonModule,
