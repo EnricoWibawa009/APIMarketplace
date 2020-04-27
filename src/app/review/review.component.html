@@ -94,11 +94,11 @@
             <h4>Your Rating & Reviews</h4>
             <p>How would you rate this API?</p>
             <div class="rating">
-                <button class="w3-button w3-circle w3-border w3-border-green">1</button>
-                <button class="w3-button w3-circle w3-border w3-border-green">2</button>
-                <button class="w3-button w3-circle w3-border w3-border-green">3</button>
-                <button class="w3-button w3-circle w3-border w3-border-green">4</button>
-                <button class="w3-button w3-circle w3-border w3-border-green">5</button>
+                <button class="w3-button w3-circle w3-border w3-border-green" (click)="clickEvent1()" [ngClass]="status1 ? 'active' : ''" ng-click="changeClass()">1</button>
+                <button class="w3-button w3-circle w3-border w3-border-green" (click)="clickEvent2()" [ngClass]="status2 ? 'active' : ''">2</button>
+                <button class="w3-button w3-circle w3-border w3-border-green" (click)="clickEvent3()" [ngClass]="status3 ? 'active' : ''">3</button>
+                <button class="w3-button w3-circle w3-border w3-border-green" (click)="clickEvent4()" [ngClass]="status4 ? 'active' : ''">4</button>
+                <button class="w3-button w3-circle w3-border w3-border-green" (click)="clickEvent5()" [ngClass]="status5 ? 'active' : ''">5</button>
             </div>
             <div class="input">
                 <form action="/action_page.php">

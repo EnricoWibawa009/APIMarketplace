@@ -144,6 +144,10 @@
     margin: 2% 2% 0 2%;
 }
 
+.rating .active {
+    background-color: green;
+}
+
 .input {
     margin: 3% 0 0 0;
     height: 40%;
