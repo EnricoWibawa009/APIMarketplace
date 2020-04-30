@@ -42,7 +42,7 @@ import {HeaderComponent} from '../header/header.component';
       MatIconModule,
       MatCardModule
     ],
-    declarations: [SidebarComponent,SubscribeComponent,BillingComponent],
+    declarations: [SubscribeComponent,BillingComponent],
     bootstrap: [ SidebarComponent,SubscribeComponent,BillingComponent]
   })
   export class SidebarModule {
