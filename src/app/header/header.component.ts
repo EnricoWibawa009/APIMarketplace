@@ -8,8 +8,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-    title = 'test-app';
-    panelOpenState = false;
+  status1: boolean = false;
+  status2: boolean = false;
+
+
+  clickEvent1(){
+    this.status1 = !this.status1; 
+    this.status2 = false;
+   
+  } 
+  clickEvent2(){
+    this.status2 = !this.status2;
+    this.status1 = false;     
+  }
 }
 
 

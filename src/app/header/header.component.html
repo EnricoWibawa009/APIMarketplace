@@ -3,8 +3,8 @@
 
     <div class="w3-white" style="margin-top: 8px; margin-bottom: -10px;">
         <a class="w3-bar-item w3-button w3-hover-none"><img src="../assets/Icons/logo.png" width="150"></a>
-        <a class="w3-bar-item w3-button w3-hover-none" style="font-weight: bold" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-        <a class="w3-bar-item w3-button w3-hover-none" routerLink="/marketplace" routerLinkActive="active">Marketplace</a>
+        <a class="w3-bar-item w3-button w3-hover-none" (click)="clickEvent1()" [ngClass]="status1 ? 'active' : ''" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+        <a class="w3-bar-item w3-button w3-hover-none" (click)="clickEvent2()" [ngClass]="status2 ? 'active' : ''" routerLink="/marketplace" routerLinkActive="active">Marketplace</a>
         <a class="w3-bar-item w3-button w3-hover-none">My Application</a>
         <a class="w3-bar-item w3-button w3-hover-none">News & Insights</a>
         <a class="w3-bar-item w3-button w3-hover-none">Forum</a>
