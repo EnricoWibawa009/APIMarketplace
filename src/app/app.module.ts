@@ -33,16 +33,16 @@ import { Navbar2Component } from './navbar2/navbar2.component';
 // import { BillingComponent } from './billing/billing.component';
 // import { SubscribeComponent } from './subscribe/subscribe.component';
 import { MatCardModule } from '@angular/material/card';
+import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'marketplace', component: MarketplaceComponent },
   { path: 'review', component:ReviewComponent},
-  { path: 'apiDetail', component:APIDetailComponent},
   //{ path: 'navbar',  component:NavbarComponent},
   { path: 'navbar',  component:NavbarComponent},
-  { path: 'apiDetail',  component:APIDetailComponent},
+  { path: 'apiDetail',  component:SidebarComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -64,6 +64,7 @@ const routes: Routes = [
     NavbarComponent,
     Navbar2Component,
     APIDetailComponent,
+    SidebarComponent,
   ],
   imports: [
     CommonModule,
