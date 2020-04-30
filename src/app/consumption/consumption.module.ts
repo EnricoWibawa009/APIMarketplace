@@ -43,7 +43,7 @@ import { ChartsModule, WavesModule } from 'angular-bootstrap-md';
       // WavesModule,
       // MDBBootstrapModule.forRoot(),
     ],
-    declarations: [ConsumptionComponent],
+    declarations: [],
     bootstrap: [ConsumptionComponent]
   })
   export class ConsumptionModule {

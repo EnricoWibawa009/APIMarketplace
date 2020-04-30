@@ -53,26 +53,6 @@ export class ReviewComponent {
       date: 'December 27, 2019',
       comment: 'Lorem ipsum dolor sit amet conseqtetur adipsicing elit tempor dolor magna',
     },
-    // {
-    //   rating: 2,
-    //   color: 'green',
-    //   name: 'David Roberts',
-    //   date: 'December 27, 2019',
-    //   comment: 'Bad',
-    // },
-    // {
-    //   rating: 3,
-    //   // if(rating: 5) {
-    //   //   color: 'green';
-    //   // },
-    //   // else {
-    //   //   color: 'red';
-    //   // },
-    //   color: 'green',
-    //   name: 'Debby Moran',
-    //   date: 'December 27, 2019',
-    //   comment: 'Lorem ipsum dolor sit amet conseqtetur adipsicing elit tempor dolor magna',
-    // }
   ];
 
 clickEvent1(){

@@ -37,7 +37,7 @@ import {MatIconModule} from '@angular/material/icon';
       MatCardModule,
       MatIconModule,
     ],
-    declarations: [DiscussionComponent],
+    declarations: [],
     bootstrap: [ DiscussionComponent ]
   })
   export class DiscussionModule {
