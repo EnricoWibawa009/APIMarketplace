@@ -29,6 +29,9 @@ import { APIDetailComponent } from './APIDetail/APIDetail.component';
 // import { BillingComponent } from './sidebarAPI.component';
 // import { SubscribeComponent } from './sidebarAPI.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
+// import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
+// import { BillingComponent } from './billing/billing.component';
+// import { SubscribeComponent } from './subscribe/subscribe.component';
 import { MatCardModule } from '@angular/material/card';
 
 const routes: Routes = [
@@ -38,6 +41,8 @@ const routes: Routes = [
   { path: 'review', component:ReviewComponent},
   { path: 'apiDetail', component:APIDetailComponent},
   //{ path: 'navbar',  component:NavbarComponent},
+  { path: 'navbar',  component:NavbarComponent},
+  { path: 'apiDetail',  component:APIDetailComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -57,7 +62,8 @@ const routes: Routes = [
     ReviewComponent,
     LoginComponent,
     NavbarComponent,
-    Navbar2Component
+    Navbar2Component,
+    APIDetailComponent,
   ],
   imports: [
     CommonModule,
