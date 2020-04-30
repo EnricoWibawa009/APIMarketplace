@@ -35,6 +35,9 @@ import { Navbar2Component } from './navbar2/navbar2.component';
 import { MatCardModule } from '@angular/material/card';
 import { SidebarComponent } from './sidebarAPI/sidebarAPI.component';
 import { DiscussionComponent } from './discussion/discussion.component';
+import { ConsumptionComponent } from './consumption/consumption.component';
+import { DocumentComponent } from './document/document.component';
+import { SupportComponent } from './support/support.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -44,6 +47,9 @@ const routes: Routes = [
   { path: 'discussion',  component:DiscussionComponent},
   { path: 'navbar',  component:NavbarComponent},
   { path: 'apiDetail',  component:SidebarComponent},
+  { path: 'consumption',  component:ConsumptionComponent},
+  { path: 'document',  component:DocumentComponent},
+  { path: 'support',  component:SupportComponent},
   {
     path: '',
     redirectTo: 'login',
@@ -67,6 +73,9 @@ const routes: Routes = [
     APIDetailComponent,
     SidebarComponent,
     DiscussionComponent,
+    ConsumptionComponent,
+    DocumentComponent,
+    SupportComponent,
   ],
   imports: [
     CommonModule,

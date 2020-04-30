@@ -43,7 +43,7 @@ import {ConsumptionComponent} from './consumption.component';
       // WavesModule,
       // MDBBootstrapModule.forRoot(),
     ],
-    declarations: [ConsumptionComponent],
+    declarations: [],
     bootstrap: [ConsumptionComponent]
   })
   export class ConsumptionModule {
