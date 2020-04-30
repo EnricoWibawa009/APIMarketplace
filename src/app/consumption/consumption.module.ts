@@ -16,8 +16,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {ConsumptionComponent} from './consumption.component';
- import { MDBBootstrapModule } from 'angular-bootstrap-md';
- import { ChartsModule, WavesModule } from 'angular-bootstrap-md';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { ChartsModule, WavesModule } from 'angular-bootstrap-md';
 
 @NgModule({
     imports: [
